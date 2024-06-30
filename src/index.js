@@ -3,8 +3,9 @@ const app=require("./server");
 const connectDB=require("./db/database");
 const bodyParser = require("body-parser");
 const impuestoRoutes = require("./routes/impuestos.routes");
+const cors=require("cors");
 connectDB();
-
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use("/api/v1", impuestoRoutes);
