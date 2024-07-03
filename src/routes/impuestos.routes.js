@@ -19,8 +19,8 @@ router.post("/login", login);
 
 router.use(authenticate);
 
-router.get("/impuestos",  getImpuestos);
-router.post("/impuestos", createImpuesto);
+router.get("/impuestos/:cedula",  getImpuestos);
+router.post("/impuestos/:cedula", createImpuesto);
 router.put("/impuestos/:id",  updateImpuesto);
 router.delete("/impuestos/:id" ,deleteImpuesto);
 
