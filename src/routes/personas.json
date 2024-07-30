@@ -1,0 +1,62 @@
+[
+    {
+        "cedula": "0102030405",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "edad": 30
+    },
+    {
+        "cedula": "0102030406",
+        "nombre": "Ana",
+        "apellido": "García",
+        "edad": 25
+    },
+    {
+        "cedula": "0102030407",
+        "nombre": "Luis",
+        "apellido": "Martínez",
+        "edad": 40
+    },
+    {
+        "cedula": "0102030408",
+        "nombre": "Maria",
+        "apellido": "Rodríguez",
+        "edad": 35
+    },
+    {
+        "cedula": "0102030409",
+        "nombre": "Carlos",
+        "apellido": "Fernández",
+        "edad": 28
+    },
+    {
+        "cedula": "0102030410",
+        "nombre": "Laura",
+        "apellido": "Hernández",
+        "edad": 32
+    },
+    {
+        "cedula": "0102030411",
+        "nombre": "Jorge",
+        "apellido": "López",
+        "edad": 45
+    },
+    {
+        "cedula": "0102030412",
+        "nombre": "Sofía",
+        "apellido": "Martínez",
+        "edad": 29
+    },
+    {
+        "cedula": "0102030413",
+        "nombre": "Pedro",
+        "apellido": "Gómez",
+        "edad": 38
+    },
+    {
+        "cedula": "0102030414",
+        "nombre": "Isabel",
+        "apellido": "Morales",
+        "edad": 27
+    }
+]

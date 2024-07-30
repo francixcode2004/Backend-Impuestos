@@ -1,5 +1,6 @@
 // routes/impuestoRoutes.js
 const express = require("express");
+const path = require('path');
 const {
     register,
     login,
@@ -12,10 +13,15 @@ const {
 } = require("../controllers/impuestosController");
 
 const router = express.Router();
-router.get("/",(req,res)=>{res.send("Hello World")})
+
 router.get("/usuarios",getUsuarios);
 router.post("/register", register);
 router.post("/login", login);
+
+router.get ("/json/local", (req, res) => {
+    const filePath = path.join(__dirname, 'personas.json');
+    res.sendFile(filePath);
+});
 
 router.use(authenticate);
 
